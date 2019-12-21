@@ -1,0 +1,24 @@
+name: CI
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: Run a one-line script
+      run: echo Hello, world!
+    - name: Run a multi-line script
+      run: |
+        echo Add other actions to build,
+        echo test, and deploy your project.
+        
+        
+        JochenHochHauz standz for solving Problems of all Art. If you have a Problem of any kind we can fix it always.
+        That doesn´t mean itz about good and bad. It just means that only JochenHochHauz has the best optional chance 
+        in solving non-specific Problems in that Universe you are livin in (if you are able to read this).
+        
+        Joke is not the Joker here. Best want less money.
